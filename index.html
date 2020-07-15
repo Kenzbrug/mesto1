@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Mesto</title>
+</head>
+<body class="body">
+    <header class="header">
+        <img class="header__logo" src="./images/header__logo.svg" alt="Место">
+        <div class="header__line"></div>
+    </header>
+    <main class="">
+        <section class="profile">
+            <img class="profile__img" src="./images/profile_mesto.jpg" alt="Фото Жак-Ив Кусто">
+            <div class="profile__info">
+                <div>
+                    <div class="profile__common">
+                        <h1 class="profile__name">Жак-Ив Кусто</h1> 
+                        <div class="profile__button">
+                            <div class="profile__pen">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="profile__occupation">Исследователь океана</p>
+                </div>
+                <div class="prifile__button-add">
+                    <div class="prifile__button-add-plus"></div>
+                </div>
+            </div>
+        </section>
+        <section class="cards">
+            <ul class="cards__lists">
+                <li class="card__list-item">
+                    <img class="card__img" src="./images/cards_horseshoe-bend-ar-usa.jpg" alt="Хорсшу Бенд, США">
+                    <div class="card__footer">
+                        <h2 class="card__footer-title">Хорсшу Бенд, США</h2>
+                        <button class="button__footer-like">
+                            <img src="./images/footer_like.jpg" alt=""/>
+                        </button>
+                    </div>
+                </li>
+                <li class="card__list-item">
+                    <img class="card__img" src="./images/cards_mount-assiniboine-east-kootenay-g-bc-canada.jpg" alt="Гора Ассинибойн, Канада">
+                    <div class="card__footer">
+                        <h2 class="card__footer-title">Гора Ассинибойн, Канада</h2>
+                        <button class="button__footer-like">
+                            <img src="./images/footer_like.jpg" alt=""/>
+                        </button>
+                    </div>
+                </li>
+                <li class="card__list-item">
+                    <img class="card__img" src="./images/cards_switzerland.jpg" alt="Флимс, Швейцария">
+                    <div class="card__footer">
+                        <h2 class="card__footer-title">Флимс, Швейцария</h2>
+                        <button class="button__footer-like">
+                            <img src="./images/footer_like.jpg" alt=""/>
+                        </button>
+                    </div>
+                </li>
+                <li class="card__list-item">
+                    <img class="card__img" src="./images/cards_gora-elbrus.jpg" alt="Гора Эльбрус">
+                    <div class="card__footer">
+                        <h2 class="card__footer-title">Гора Эльбрус</h2>
+                        <button class="button__footer-like">
+                            <img src="./images/footer_like.jpg" alt=""/>
+                        </button>
+                    </div>
+                </li>
+                <li class="card__list-item">
+                    <img class="card__img" src="./images/cards_dombay.jpg" alt="Домбай">
+                    <div class="card__footer">
+                        <h2 class="card__footer-title">Домбай</h2>
+                        <button class="button__footer-like">
+                            <img src="./images/footer_like.jpg" alt=""/>
+                        </button>
+                    </div>
+                </li>
+                <li class="card__list-item">
+                    <img class="card__img" src="./images/cards_karachaevsk.jpg" alt="Карачаево-Черкесия">
+                    <div class="card__footer">
+                        <h2 class="card__footer-title">Карачаево-Черкесия</h2>
+                        <button class="button__footer-like">
+                            <img src="./images/footer_like.jpg" alt=""/>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <footer class="footer">
+            <p class="footer__copyright">&copy;2020 Mesto Russia</p>
+        </footer>
+    </main>
+    <div class="popup">
+        <div class="popup__container">
+            <button class="popup__close-button"></button>
+            <h2 class="popup__title">Редактировать профиль</h2>
+            <form action="#" class="form">
+                <input class="form__input form__input_type_name" type="text" value="Жак-Ив Кусто">
+                <div class="popup__line"></div>
+                <input class="form__input form__input_type_occupation" type="text" value="Исследователь океана">
+                <div class="popup__line"></div>
+                <button class="popup__save" type="submit">Сохранить</button>
+            </form>
+        </div>
+    </div>
+<script src="scripts/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.button__footer-like {
+    width: 20.76px;
+    height: 18.13px;
+    border: none;
+    padding: 0;
+    outline: none;
+}
+
+.button__footer-like:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
