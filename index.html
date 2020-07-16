@@ -9,7 +9,6 @@
 <body class="body">
     <header class="header">
         <img class="header__logo" src="./images/header__logo.svg" alt="Место">
-        <div class="header__line"></div>
     </header>
     <main class="">
         <section class="profile">
@@ -18,16 +17,11 @@
                 <div>
                     <div class="profile__common">
                         <h1 class="profile__name">Жак-Ив Кусто</h1> 
-                        <div class="profile__button">
-                            <div class="profile__pen">
-                            </div>
-                        </div>
+                        <button class="profile__button-change" type="button"></button>
                     </div>
                     <p class="profile__occupation">Исследователь океана</p>
                 </div>
-                <div class="prifile__button-add">
-                    <div class="prifile__button-add-plus"></div>
-                </div>
+                <button class="prifile__button-add" type="button"></button>
             </div>
         </section>
         <section class="cards">
@@ -37,7 +31,7 @@
                     <div class="card__footer">
                         <h2 class="card__footer-title">Хорсшу Бенд, США</h2>
                         <button class="button__footer-like">
-                            <img src="./images/footer_like.jpg" alt=""/>
+                            <img src="./images/footer_like.jpg" alt="Сердечко-понравилось"/>
                         </button>
                     </div>
                 </li>
@@ -46,7 +40,7 @@
                     <div class="card__footer">
                         <h2 class="card__footer-title">Гора Ассинибойн, Канада</h2>
                         <button class="button__footer-like">
-                            <img src="./images/footer_like.jpg" alt=""/>
+                            <img src="./images/footer_like.jpg" alt="Сердечко-понравилось"/>
                         </button>
                     </div>
                 </li>
@@ -55,7 +49,7 @@
                     <div class="card__footer">
                         <h2 class="card__footer-title">Флимс, Швейцария</h2>
                         <button class="button__footer-like">
-                            <img src="./images/footer_like.jpg" alt=""/>
+                            <img src="./images/footer_like.jpg" alt="Сердечко-понравилось"/>
                         </button>
                     </div>
                 </li>
@@ -64,7 +58,7 @@
                     <div class="card__footer">
                         <h2 class="card__footer-title">Гора Эльбрус</h2>
                         <button class="button__footer-like">
-                            <img src="./images/footer_like.jpg" alt=""/>
+                            <img src="./images/footer_like.jpg" alt="Сердечко-понравилось"/>
                         </button>
                     </div>
                 </li>
@@ -73,7 +67,7 @@
                     <div class="card__footer">
                         <h2 class="card__footer-title">Домбай</h2>
                         <button class="button__footer-like">
-                            <img src="./images/footer_like.jpg" alt=""/>
+                            <img src="./images/footer_like.jpg" alt="Сердечко-понравилось"/>
                         </button>
                     </div>
                 </li>
@@ -82,25 +76,23 @@
                     <div class="card__footer">
                         <h2 class="card__footer-title">Карачаево-Черкесия</h2>
                         <button class="button__footer-like">
-                            <img src="./images/footer_like.jpg" alt=""/>
+                            <img src="./images/footer_like.jpg" alt="Сердечко-понравилось"/>
                         </button>
                     </div>
                 </li>
             </ul>
         </section>
-        <footer class="footer">
-            <p class="footer__copyright">&copy;2020 Mesto Russia</p>
-        </footer>
     </main>
+    <footer class="footer">
+        <p class="footer__copyright">&copy;2020 Mesto Russia</p>
+    </footer>
     <div class="popup">
         <div class="popup__container">
             <button class="popup__close-button"></button>
             <h2 class="popup__title">Редактировать профиль</h2>
-            <form action="#" class="form">
-                <input class="form__input form__input_type_name" type="text" value="Жак-Ив Кусто">
-                <div class="popup__line"></div>
-                <input class="form__input form__input_type_occupation" type="text" value="Исследователь океана">
-                <div class="popup__line"></div>
+            <form action="#" class="popup__form" name="popupform">
+                <input class="popup__form-input popup__form-input_type_name" type="text" value="Жак-Ив Кусто">
+                <input class="popup__form-input popup__form-input_type_occupation" type="text" value="Исследователь океана">
                 <button class="popup__save" type="submit">Сохранить</button>
             </form>
         </div>
